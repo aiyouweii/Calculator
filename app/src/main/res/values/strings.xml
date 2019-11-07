@@ -1,3 +1,102 @@
 <resources>
-    <string name="app_name">Calculator</string>
+    <string name="app_name">计算器</string>
+
+    <string-array name="length1">
+        <item>千米</item>
+        <item>米</item>
+        <item>分米</item>
+        <item>厘米</item>
+        <item>毫米</item>
+        <item>微米</item>
+        <item>纳米</item>
+        <item>皮米</item>
+        <item>英寸</item>
+        <item>英尺</item>
+    </string-array>
+
+    <string-array name="length">
+        <item>请选择</item>
+        <item>千米</item>
+        <item>米</item>
+        <item>分米</item>
+        <item>厘米</item>
+        <item>毫米</item>
+        <item>微米</item>
+        <item>纳米</item>
+        <item>皮米</item>
+        <item>英寸</item>
+        <item>英尺</item>
+    </string-array>
+
+    <string-array name="temperature1">
+        <item>摄氏度</item>
+        <item>华氏度</item>
+        <item>开氏度</item>
+    </string-array>
+
+    <string-array name="temperature">
+        <item>请选择</item>
+        <item>摄氏度</item>
+        <item>华氏度</item>
+        <item>开氏度</item>
+    </string-array>
+
+    <string-array name="speed1">
+        <item>米/秒</item>
+        <item>千米/时</item>
+        <item>光速</item>
+    </string-array>
+
+    <string-array name="speed">
+        <item>请选择</item>
+        <item>米/秒</item>
+        <item>千米/时</item>
+        <item>光速</item>
+    </string-array>
+
+    <string-array name="angle1">
+        <item>度</item>
+        <item>分</item>
+        <item>弧度</item>
+    </string-array>
+
+    <string-array name="angle">
+        <item>请选择</item>
+        <item>度</item>
+        <item>分</item>
+        <item>弧度</item>
+    </string-array>
+
+    <string-array name="volume1">
+        <item>立方米</item>
+        <item>立方分米</item>
+        <item>立方厘米</item>
+        <item>升</item>
+        <item>毫升</item>
+    </string-array>
+
+    <string-array name="volume">
+        <item>请选择</item>
+        <item>立方米</item>
+        <item>立方分米</item>
+        <item>立方厘米</item>
+        <item>升</item>
+        <item>毫升</item>
+    </string-array>
+
+    <string-array name="system1">
+        <item>二进制</item>
+        <item>八进制</item>
+        <item>十六进制</item>
+        <item>十进制</item>
+    </string-array>
+
+    <string-array name="system">
+        <item>请选择</item>
+        <item>二进制</item>
+        <item>八进制</item>
+        <item>十六进制</item>
+        <item>十进制</item>
+    </string-array>
+
 </resources>
