@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:layout_gravity="fill_horizontal"
+    android:rowCount="6"
+    android:padding="40dp"
+    >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="250dp"
+        android:layout_height="230dp"
+        android:gravity="bottom|right"
+        android:layout_gravity="center"
+        android:lines="15"
+        android:layout_columnSpan="4"
+        android:maxLines="200"
+        android:textSize="32sp"
+        android:scrollbars="vertical"
+        android:singleLine="false"/>
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="del" />
+
+    <Button
+        android:id="@+id/num7"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/num8"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/num9"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/num4"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/num5"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/num6"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="+" />
+
+
+    <Button
+        android:id="@+id/num1"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/num2"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/num3"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="3" />
+
+
+    <Button
+        android:id="@+id/equ"
+        android:layout_width="70dp"
+        android:layout_height="99dp"
+        android:layout_rowSpan="2"
+        android:text="=" />
+
+    <Button
+        android:id="@+id/percent"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="%" />
+
+    <Button
+        android:id="@+id/num0"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/point"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="." />
+
+
+
+</GridLayout>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:text="长度单位"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/length_first"
+            android:text="0"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/length1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/length1"/>
+
+        <TextView
+            android:id="@+id/length_second"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/length2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/length"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="温度单位"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/temperature_first"
+            android:text="0"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/temperature1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/temperature1"/>
+
+        <TextView
+            android:id="@+id/temperature_second"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/temperature2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/temperature"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:text="速度单位"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/speed_first"
+            android:text="0"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/speed1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/speed1"/>
+
+        <TextView
+            android:id="@+id/speed_second"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/speed2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/speed"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:text="角度单位"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/angle_first"
+            android:text="0"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/angle1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/angle1"/>
+
+        <TextView
+            android:id="@+id/angle_second"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/angle2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/angle"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:text="体积单位"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/volume_first"
+            android:text="0"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/volume1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/volume1"/>
+
+        <TextView
+            android:id="@+id/volume_second"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/volume2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/volume"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:text="进制转换"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/system_first"
+            android:text="0"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/system1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/system1"/>
+
+        <TextView
+            android:id="@+id/system_second"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/system2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/system"/>
+
+    </LinearLayout>
+    </LinearLayout>
+    
+</ScrollView>
